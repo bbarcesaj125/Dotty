@@ -1,0 +1,33 @@
+#
+# Placed in /home/[user account]/.config/openbox/autostart as local user template
+# Otherwise, can be placed in /etc/xdg/openbox/autostart as a global template
+# Note: applications such as the network manager (nm-app) have been placed
+# in /etc/xdg/autostart as global items
+#
+# Written by the Manjaro Team
+#
+
+## Compositing
+compton --config ~/.config/compton.conf -b &
+
+## Background
+nitrogen --restore &
+
+# MPD daemon start (if no other user instance exists)
+[ ! -s ~/.mpd/pid ] && mpd &
+
+## Startup
+
+(sleep 1s && tint2) &
+(sleep 1s && xscreensaver -no-splash) &
+# Thunar is run in daemon-mode to enable auto-mounting of removable media
+# (sleep 1s && thunar --daemon) &
+# (sleep 3 && /usr/bin/nm-applet --sm-disable) &
+# (sleep 1s && numlockx) &
+(sleep 1s && volumeicon) &
+(sleep 1s && parcellite) &
+(sleep 5s && dropboxd) &
+(sleep 6s && conky) &
+
+
+
