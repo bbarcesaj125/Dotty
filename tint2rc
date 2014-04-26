@@ -26,7 +26,7 @@ background_color = #0C0C0C 60
 # Panel
 panel_monitor = all
 panel_position = top center horizontal
-panel_size = 100% 25
+panel_size = 100% 24
 panel_margin = 0 0
 panel_padding = 0 0 0
 panel_dock = 0
@@ -66,7 +66,7 @@ task_urgent_icon_asb = 100 0 0
 task_iconified_icon_asb = 70 0 0
 
 # Fonts
-task_font = Sans 10
+task_font = DejaVu Sans 10
 task_font_color = #FFFFFF 60
 task_active_font_color = #FFFFFF 80
 task_urgent_font_color = #FFFFFF 80
@@ -83,9 +83,9 @@ systray_icon_asb = 70 0 0
 
 # Clock
 time1_format = %H:%M:%S
-time1_font = Sans 8
+time1_font = DejaVu Sans 8
 time2_format = %A %d %B
-time2_font = sans 6
+time2_font = DejaVu Sans 6
 clock_font_color = #FFFFFF 100
 clock_padding = 1 0
 clock_background_id = 1
@@ -96,7 +96,7 @@ tooltip_padding = 2 2
 tooltip_show_timeout = 0.7
 tooltip_hide_timeout = 0.3
 tooltip_background_id = 1
-tooltip_font = sans 10
+tooltip_font = DejaVu Sans 10
 tooltip_font_color = #000000 80
 
 # Mouse
@@ -110,8 +110,8 @@ battery = 1
 battery_low_status = 25
 battery_low_cmd = notify-send -t 60000 "WARNING:" "Battery Critically Low :(" --icon=battery-low
 battery_hide = 0
-bat1_font = Sans 6
-bat2_font = sans 6
+bat1_font = DejaVu Sans 6
+bat2_font = DejaVu Sans 6
 battery_font_color = #FFFFFF 62
 battery_padding = 3 1
 battery_background_id = 1

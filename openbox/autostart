@@ -11,7 +11,7 @@
 compton --config ~/.config/compton.conf -b &
 
 ## Background
-nitrogen --restore &
+sh ~/.fehbg &
 
 # MPD daemon start (if no other user instance exists)
 [ ! -s ~/.mpd/pid ] && mpd &
@@ -25,8 +25,7 @@ nitrogen --restore &
 # (sleep 3 && /usr/bin/nm-applet --sm-disable) &
 # (sleep 1s && numlockx) &
 (sleep 1s && volumeicon) &
-(sleep 1s && parcellite) &
-(sleep 5s && dropboxd) &
+# (sleep 5s && dropboxd) &
 (sleep 6s && conky) &
 
 

@@ -17,10 +17,10 @@ URxvt.internalBorder: 0
 URxvt.externalBorder: 0
 
 ! Font declaration
-URxvt.font: xft:Droid Sans Mono for Powerline:pixelsize=10
-URxvt.boldFont: xft:Droid Sans Mono for Powerline:pixelsize=10:Bold
-URxvt.italicFont: xft:Droid Sans Mono for Powerline:pixelsize=10:Italic
-URxvt.bolditalicFont: xft:Droid Sans Mono for Powerline:pixelsize=10:Bold:Italic
+URxvt.font: xft:DejaVu Sans Mono for Powerline:pixelsize=10
+URxvt.boldFont: xft:DejaVu Sans Mono for Powerline:pixelsize=10:bold
+URxvt.italicFont: xft:DejaVu Sans Mono:pixelsize=10:italic
+URxvt.bolditalicFont: xft:DejaVu Sans Mono:pixelsize=10:bold:italic
 URxvt*letterSpace: -2
 
 ! Clickable URLs + Tab support (disabled for now)
