@@ -1,0 +1,3 @@
+[submodule "openbox/airline"]
+	path = openbox/airline
+	url = https://github.com/vim-airline/vim-airline
